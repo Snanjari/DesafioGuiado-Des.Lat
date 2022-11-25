@@ -1,0 +1,14 @@
+#ong.py
+def funct (**kwargs):
+    for clave, valor in kwargs.items():
+        if "factorial" in clave:
+            factorial = 1
+            gestion = print(f"El FACTORIAL de {valor} es: {factorial}")
+        elif "productoria" in clave:
+            productoria = 1
+            for i in valor:
+                productoria *= i
+            gestion = print(f"la PRODUCTORIA de {valor} es: {productoria}")
+            
+            return gestion
+        
